@@ -1,0 +1,51 @@
+/* Fond général de la page */
+body {
+    background-color: #000; /* Noir profond */
+    color: white; /* Texte en blanc */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Conteneur de la vidéo */
+  .video-container {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8); /* Belle ombre portée */
+    border-radius: 12px; /* Bords arrondis */
+    overflow: hidden; /* Coupe les débordements */
+  }
+  
+  /* Titre du film */
+  h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* Contrôles du lecteur Video.js */
+  .video-js .vjs-control-bar {
+    background: rgba(20, 20, 20, 0.8); /* Contrôle semi-transparent */
+  }
+  
+  /* Barre de progression rouge comme Netflix */
+  .video-js .vjs-play-progress {
+    background-color: #e50914; /* Rouge Netflix */
+  }
+  
+  /* Fond de la barre de progression */
+  .video-js .vjs-slider {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Améliore la visibilité du bouton plein écran */
+  .video-js .vjs-fullscreen-control .vjs-icon-placeholder:before {
+    color: white;
+  }
+  
